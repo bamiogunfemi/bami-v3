@@ -7,13 +7,16 @@ export const HomeNavbar = () => {
     <StyledHeader>
       <div className="left">
         <Link href="/" passHref>
-          <Image
-            alt="bami's logo"
-            height={22.63874053955078}
-            className="logo"
-            src="/images/logo.svg"
-            width={20.666667938232422}
-          />
+          <>
+            {" "}
+            <Image
+              alt="bami's logo"
+              height={32}
+              className="logo"
+              src="/images/logo.svg"
+              width={37.33}
+            />
+          </>
         </Link>
       </div>
       <div className="right">

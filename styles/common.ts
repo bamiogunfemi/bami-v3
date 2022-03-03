@@ -11,7 +11,6 @@ import {
 export const Heading1 = styled.h1`
   font-family: ${defaultFontFamily};
   font-size: 68px;
-  /* letter-spacing: -1%; */
   line-height: 91px;
   font-weight: 900;
   color: ${(props) => (props.color ? props.color : white1)};
@@ -63,30 +62,30 @@ export const Heading4 = styled.h4`
 
 export const SemiBoldSans = styled.p`
   font-style: normal;
-  font-size: 14px;
+  font-size: 16px;
   color: ${(props) => (props.color ? props.color : white1)};
   font-family: ${secondaryFontFamily};
   font-weight: 600;
-  line-height: 22px;
+  line-height: 24px;
   letter-spacing: 0.01em;
 `;
 export const MediumSans = styled.p`
   font-style: normal;
-  font-size: 14px;
+  font-size: 16px;
   color: ${(props) => (props.color ? props.color : white1)};
   font-family: ${secondaryFontFamily};
   font-weight: 500;
-  line-height: 22px;
-  letter-spacing: 0.01em;
+  line-height: 24px;
+  letter-spacing: 0.02em;
 `;
 export const RegularSans = styled.p`
   font-style: normal;
-  font-size: 14px;
+  font-size: 16px;
   color: ${(props) => (props.color ? props.color : white1)};
   font-family: ${secondaryFontFamily};
-  font-weight: 500;
-  line-height: 22px;
-  letter-spacing: 0.01em;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.03em;
 `;
 export const MediumTagSans = styled.p`
   font-style: normal;

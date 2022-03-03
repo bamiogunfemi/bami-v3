@@ -10,6 +10,7 @@ export const StyledHeader = styled.nav`
   .left {
     grid-column: 1 / 2;
     grid-row: 1;
+    margin: auto 0;
   }
   .right {
     grid-column: 5/ 5;
